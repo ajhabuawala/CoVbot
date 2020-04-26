@@ -1,4 +1,5 @@
 import requests
+import config
 from datetime import datetime, timedelta
 
 
@@ -13,8 +14,7 @@ def _fetch_covid_data(country_name):
     querystring = {"date-format": "YYYY-MM-DD", "format": "json", "date": datetime.strftime(datetime.now() - timedelta(2), '%Y-%m-%d'), "name": str(country_name)}
     headers = {
         'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
-        'x-rapidapi-key': "d488627587msh127c412ef98f220p196afbjsn78704eb4a153"
-    }
+        'x-rapidapi-key': config.rapid_api_key}
 
     response = requests.request("GET", url, headers=headers, params=querystring)
 
