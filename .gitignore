@@ -1,2 +1,4 @@
 ngrok
 wp_env
+src/config.py
+src/__pycache__/
