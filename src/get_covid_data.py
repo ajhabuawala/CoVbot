@@ -31,4 +31,5 @@ def _extract_relevant_covid_data(data):
 
 
 if __name__ == '__main__':
-    get_covid_data_by_country("Italy")
+    name, *cases = get_covid_data_by_country("Italy")
+    print(name, cases)
