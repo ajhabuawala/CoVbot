@@ -19,7 +19,16 @@ Checkout my post for the Twilio Hackathon [here](https://dev.to/ajhabuawala/covb
 ## Demo
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_5d5K91jMKA" target="_blank"><img src="http://img.youtube.com/vi/_5d5K91jMKA?t=6" alt="VIDEO TO DEMO" width="240" height="180" border="10" /></a>
 
-## Install It
+## Try it yourself
+
+To begin testing, connect to your sandbox by sending a WhatsApp message from your device to +1 415 523 8886 with code **join problem-carried**.
+
+Then say **Hi** and see the magic happen!!
+
+DISCLAIMER: I host this server on my local computer, so this will only work till 4th of May 2020 and then will be disabled
+
+
+## Make it yourself
 
 ### Twilio 
 
