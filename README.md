@@ -21,7 +21,7 @@ Checkout my post for the Twilio Hackathon [here](https://dev.to/ajhabuawala/covb
 
 ## Try it yourself
 
-To begin testing, connect to your sandbox by sending a WhatsApp message from your device to +1 415 523 8886 with code **join problem-carried**.
+To begin testing, connect to the sandbox by sending a WhatsApp message from your device to +1 415 523 8886 with code **join problem-carried**.
 
 Then say **Hi** and see the magic happen!!
 
